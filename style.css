@@ -18,8 +18,8 @@
   width: 7rem;
   height: 7rem;
   position: fixed;
-  top: 6rem;
-  right: 6rem; 
+  top: 4rem;
+  right: 4rem; 
   border-radius: 50%;
   z-index: 2000;
   box-shadow: 0 1rem 3rem rgba(#000,.1);
@@ -29,13 +29,13 @@
 
 }
 .navigation__background{
-  height: 6rem;
-  width: 6rem;
+  height: 4rem;
+  width: 4rem;
   border-radius: 50%;
   position: fixed;
   top: 6.5rem;
   right: 6.5rem;
-  background-image: radial-gradient(#7ed56f, #28b485);
+  background-image: radial-gradient(#112238, #ee7112);
   z-index: 1000;
   transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1);
 
@@ -73,7 +73,7 @@
 {
   display: inline-block;
   font-size: 2.5rem;
-  font-family: "Lato", sans-serif;
+  font-family: Garamond;
   font-weight: 300;
   padding: 1rem 2rem;
   text-decoration: none;
@@ -164,7 +164,7 @@
 
 .header-container{
     padding:  0 1rem;
-    font-family: "Lato", sans-serif;
+    font-family: Garamond;
     font-weight: 400;
     /* font-size: 16px; */
     line-height: 1.7;
@@ -189,6 +189,7 @@
   
   .heading-primary--main {
     display: block;
+    font-family: Garamond;
     font-size: 4.5rem;
     font-weight: 700;
     letter-spacing: 0.5rem;
@@ -202,6 +203,7 @@
   
   .heading-primary--sub {
     display: block;
+    font-family: Garamond;
     font-size: 2.4rem;
     font-weight: 400;
     letter-spacing: 0.5rem;
@@ -236,18 +238,15 @@
   100% {
     opacity: 1;
     transform: translate(0); } }
-
-
-
-
 .header {
   width: 100%;
   height: 120vh;
-  background-image: linear-gradient(to right bottom, rgba(20, 19, 19, 0.8), rgba(35, 36, 31, 0.8)), url("./image/3.jpg");
+  background-image: linear-gradient(to right bottom, #112238, #ed7114);
   clip-path: polygon(0 0, 100% 0, 100% 100vh, 0 100%);
   position: relative;
   background-repeat: no-repeat;
   background-position-x: 100%;
+  position: relative;
   /* background-position: 100%; */
 
 }
@@ -268,7 +267,16 @@
   top: 40%;
   left: 25%;
   transform: translate(-50%, -50%);
-  text-align: center; }
+  text-align: center;
+ }
+ .image-header-container{
+   position: absolute;
+   top: 8rem;
+   left: 80rem;
+   width: 40rem;
+   height: 80rem;
+
+ }
 
     
 .button:link,
@@ -281,7 +289,7 @@ button:visited{
     transition: all .2s;
     position: relative;
     font-size: 2rem;
-    
+    font-family: Garamond;
 
 }
 .button:hover{
@@ -331,7 +339,7 @@ button:visited{
 }
 .main-about-container {
   padding: 0 1rem;
-  font-family: "Lato", sans-serif;
+  font-family: Garamond;
   font-weight: 400;
   width: 100%;
   /* font-size: 16px; */
@@ -345,6 +353,7 @@ button:visited{
 }
 .headig-secondary {
   font-size: 2.5rem;
+  font-family: Garamond;
   text-transform: uppercase;
   font-weight: 700;
   display: inline-block;
@@ -370,7 +379,7 @@ button:visited{
   align-items: center;
   box-sizing: border-box; 
   /* padding: 0 3rem;  */
-  font-family: "Lato", sans-serif;
+  font-family: Garamond;
  font-weight: 400;
  font-size: 16px;
  line-height: 1.7; 
@@ -395,13 +404,14 @@ button:visited{
 
 }
 .heading-tertiary{
-
+  font-family: Garamond;
   font-size: 1.6rem;
   text-transform: uppercase;
   font-weight: 700;
 }
 .paragraph{
   font-size: 1.6rem;
+  font-family: Garamond;
 
 }
 .paragraph:not(:last-child){
@@ -418,6 +428,7 @@ button:visited{
   border-bottom: 1px solid #0D0E26;
   padding: 3px;
   font-size: 1.6rem;
+  font-family: Garamond;
   transition: all .2s;
 
 }
@@ -455,7 +466,7 @@ button:visited{
 
 }
 .composition__photo--p2{
-  right: 1.5rem;
+  right: 10rem;
   top: 2rem;
   height: 25rem;
 
@@ -463,24 +474,24 @@ button:visited{
 .composition__photo--p3{
   left: 15%;
   top: 17rem;
-  height: 25rem;
+  height: 20rem;
 
 }
 .composition__photo:hover{
-  outline: 1rem solid #55c57a;
-  transform: scale(1.2) translateY(-.5rem);
+  outline: 1rem solid #ee7112;
+  transform: scale(1) translateY(-.5rem);
   box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, .5);
   z-index: 15;
 
 }
 .composition:hover .composition__photo:not(:hover){
-  transform: scale(.95);
+  transform: scale(.85);
 
 }
 .section-features{
   padding: 20rem;
   padding-left: 8rem;
-  background-image: linear-gradient(to right bottom, rgba(20, 19, 19, 0.8), rgba(35, 36, 31, 0.8)), url("./image/10.jpg");
+  background-image: linear-gradient(to right bottom, #112238f8, #ed721480), url("./image/img.jpg");
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -5rem;
@@ -672,6 +683,7 @@ ul{
 
 }
 .card1__price-only{
+  font-family: Garamond;
   font-size: 1.4rem;
   text-transform: uppercase;
 
@@ -679,6 +691,8 @@ ul{
 .card1__price-value{
   font-size: 6rem;
   font-weight: 100;
+  font-family: Garamond;
+
 
 }
 .card1__picture--2{
@@ -705,7 +719,7 @@ ul{
 
   }
   .btn--green{
-    background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
+    background-image: #0D0E26;
     color: white;
     font-size: large;
     
@@ -768,9 +782,11 @@ ul{
   position: absolute;
   top: 50%;
   left: 50%;
-  color: white;
+  font-weight: 900;
+  color: #ee7112;
   transform: translate(-50%, 20%);
   text-transform: uppercase;
+  font-family: Garamond;
   font-size: 1.7rem;
   text-align: center;
   opacity: 0;
@@ -816,10 +832,10 @@ ul{
 }
 .section-book{
   padding: 15rem 10rem;
-  background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
+  background-image: linear-gradient(to right bottom,  #ff7730,  #ff7730);
 }
 .book{
-  background-image: linear-gradient(105deg, rgba(255, 255, 255,.9) 0%,rgba(255, 255, 255,.9) 50%, transparent 50%), url("./image/10.jpg");
+  background-image: linear-gradient(105deg, rgba(255, 255, 255,.9) 0%,rgba(255, 255, 255,.9) 50%, transparent 50%), url("./image/nathan-da-silva-k-rKfqSm4L4-unsplash.jpg");
   background-size: 100%;
   height: 50rem;
   border-radius: 3px;
@@ -845,9 +861,9 @@ ul{
   color: black;
   padding: 1.5rem 2rem;
   border-radius: 2px;
-  background-color: rgba(255, 255, 255, .5);
+  background-color: #7f7f7f34;
   border: none;
-  font-family: inherit;
+  font-family: Garamond;
   border-bottom: 3px solid transparent;
   width: 100%;
   display: block;
