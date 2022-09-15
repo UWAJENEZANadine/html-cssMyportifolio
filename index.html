@@ -23,27 +23,28 @@
     <div class="navigation__background">&nbsp;</div>
     <nav class="navigation__nav">
       <ul class="navigation__list">
-        <li style="margin: 1rem;" class="card1__list" class="navigation__item"><a href="./index.html" class="navigation__link">Home</a></li class="card2__list">
-        <li style="margin: 1rem;" class="card1__list" class="navigation__item"><a href="./index.html" class="navigation__link">Resume</a></li class="card2__list">
-        <li style="margin: 1rem;" class="card1__list" class="navigation__item"><a href="./index.html" class="navigation__link">My Skills</a></li class="card2__list">
-        <li style="margin: 1rem;" class="card1__list" class="navigation__item"><a href="./index.html" class="navigation__link">Contact Me</a></li class="card2__list">
+        <li style="margin: 1rem;" class="card1__list" class="navigation__item"><a href="#home" class="navigation__link" onclick="myFunction()">Home</a></li class="card2__list">
+        <li style="margin: 1rem;" class="card1__list" class="navigation__item"><a href="#resume" class="navigation__link" onclick="myFunction()">Resume</a></li class="card2__list">
+        <li style="margin: 1rem;" class="card1__list" class="navigation__item"><a href="#mySkills" class="navigation__link" onclick="myFunction()">My Skills</a></li class="card2__list">
+        <li style="margin: 1rem;" class="card1__list" class="navigation__item"><a href="#aboutMe" class="navigation__link" onclick="myFunction()" >About Me</a></li class="card2__list">
+        <li style="margin: 1rem;" class="card1__list" class="navigation__item"><a href="#contactMe" class="navigation__link" onclick="myFunction()" >Contact Me</a></li class="card2__list">
       </ul>
     </nav>
 
   </div>
 
-    <div class="header-container">
-        <header class="header">
+    <div class="header-container" >
+        <header class="header" id="home">
          <img src="./image/lll-eCwjwuuoxt-transformed.png" class="header__logo"> 
           <div class="header__text-box">
             <h1 class="heading-primary">
-              <span class="heading-primary--main">Nadine UWAJENEZA </span>
+              <span class="heading-primary--main" id="resume">Nadine UWAJENEZA </span>
               <span class="heading-primary--sub"> 
                 web developer expertize<br>
                 creating websites</span>
             </h1>
 
-            <a href="https://drive.google.com/file/d/1jnq34Fj088WM9lCIWY5ETWMZ44LDK05V/view?usp=sharing" target="_blank" class="button btn--white btn--animated" style="color:white">
+            <a href="https://drive.google.com/file/d/1jnq34Fj088WM9lCIWY5ETWMZ44LDK05V/view?usp=sharing" target="_blank" class="button btn--white btn--animated" style="color:white" >
               view My CV
             </a>
           </div>
@@ -51,10 +52,10 @@
           </div>
 
           <main class="main-about-container">
-            <section class="section-about">
+            <section class="section-about sect-med-device" >
               <div class="u-center-text u-margin-bottom-8">
                 <h2 class="headig-secondary">
-                  Our Latest Featured Projects
+                  My Recently Featured Projects
                 </h2>
               </div>
               <div class="container-fluid">
@@ -177,9 +178,9 @@
               </div>
             </section> 
      
-            <section class="container-fluid sections-tour">
+            <section class="container-fluid sections-tour" >
               <div class="u-center-text u-margin-bottom-8">
-                <h2 class="headig-secondary"> highlighted My Skills</h2>
+                <h2 class="headig-secondary" id="mySkills"> highlighted My Skills</h2>
               </div>
               <div class="container-fluid">
               <div class="row row3-container">
@@ -287,7 +288,7 @@
                 ></video>
               </div>
               <div class="u-center-text u-margin-bottom-8">
-                <h2 class="headig-secondary">About Me</h2>
+                <h2 class="headig-secondary" id="aboutMe">About Me</h2>
               </div>
               <div class="row5">
                 <div class="story">
@@ -302,7 +303,7 @@
                     <h3 class="heading-tertiary u-margin-bottom-small">
                       PERSONAL DETAILS
                     </h3>
-                    <p class="paragraph">
+                    <p class="paragraph small-dev">
                       Here, I focus on websites development
                       dveloped using React js, Node js with Mongo database
                       we normally deploy the website, so any one
@@ -328,7 +329,7 @@
                     <h3 class="heading-tertiary u-margin-bottom-small">
                       Wow my life is totally copletely differet
                     </h3>
-                    <p class="paragraph">
+                    <p class="paragraph small-dev">
                       A programmer's day-to-day life is generally 
                       spent reading code, fixing errors, and writing
                        new pieces of code. Programming is a highly
@@ -347,7 +348,7 @@
               </div>
             </section>
     
-            <section class="section-book">
+            <section class="section-book" id="contactMe">
               <div class="row4">
                 <div class="book">
                   <div class="book__form">
@@ -394,7 +395,7 @@
                           Text
                         </label> -->
                     </div>
-                    <a href="#" target="_blank" class="button btn--white btn--animated" style="color:white">
+                    <a href="#" target="_blank" class="button btn--white btn--animated small-devb" style="color:white">
                       Send
                     </a>
                     </form>
@@ -404,7 +405,11 @@
             </section> 
           </main>
 
-         
+          <script>
+            function myFunction() {
+              window.location.reload();
+            }
+            </script>    
 
 </body>
 
