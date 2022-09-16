@@ -1556,7 +1556,7 @@ ul {
     line-height: 0;
     box-sizing: border-box;
     margin-top: -25vh;
-    margin-left: 3rem;
+    margin-left: .1rem;
   }
   .section-about {
     padding: 1rem;
@@ -1679,13 +1679,13 @@ ul {
 .form__input {
   font-size: 1.5rem;
   color: black;
-  padding: .1rem .1rem;
+  padding: 1.5rem 2rem;
   border-radius: 2px;
   height: 4vh;
 }
 .heading-form{
   margin-top: 0rem;
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 
@@ -1738,45 +1738,48 @@ ul {
   }
 
   .heading-primary--main {
-    font-size: 1.7rem;
+    font-size: 4rem;
     letter-spacing: 0.3rem;
     margin-left: 10rem;
     margin-top: 25rem;
+    /* margin: 3px */
   }
 
+ .med-device{
+  font-size: 2rem;
+ }
+
   .heading-primary--sub {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: 400;
     letter-spacing: 0rem;
     margin-left: 10rem;
   }
   .image-header-container {
     position: absolute;
-    top: 25rem;
-    left: 50rem;
-    width: 30%;
-    height: 50vh;
+    top: 18rem;
+    left: 65rem;
+    width: 20%;
+    height: 60vh;
   }
   .button:link,
   button:visited {
     padding: 1rem 1rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-top: 2rem;
     margin-left: 6rem;
   }
-  .section-about {
-    background-color: #f7f7f7;
-    padding: 3rem 0;
-    height: 70vh;
-  }
+ 
   .headig-secondary {
-    font-size: 2.3rem;
+    font-size: 3.3rem;
     margin-top: 15rem;
+    margin-right: 15%;
+    
     /* color: #0a700f; */
   }
 
   .cols1 {
-    width: 100%;
+    width: 80%;
     
   }
   .cols2 {
@@ -1797,7 +1800,8 @@ ul {
   }
   .section-about {
     padding: 1rem;
-    height: 180vh;
+    height: 150vh;
+    
   }
   .u-margin-bottom-8 {
     margin-bottom: .5rem;
@@ -1810,16 +1814,17 @@ ul {
     padding-left: 4rem;
     padding-right: 4rem;
     padding-top: 0rem;
-    height: 250vh;
+    height: 290vh;
     padding-top: 3rem;
 
   }
   .feature-box {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     padding: 1rem;
     line-height: 1.7;
-    width: 100%;
-    margin-left: .8rem;
+    width: 60%;
+    margin-left: 10rem;
+    margin-top: 3rem;
   }
   .col-1-0f-4 {
     margin-left: 0rem;
@@ -1830,16 +1835,15 @@ ul {
   .sections-tour {
     padding: 2rem 0 5rem 2rem;
     background-color: #f7f7f7;
-    margin-top: -10rem;
+    margin-top: -7rem;
     width: 100%;
    
   }
   .sections-tour .row {
     padding: 1rem .3rem;
-    line-height: 1rem;
-
-    
+    line-height: 2rem; 
   }
+ 
   
   .row3-container {
     display: block;
@@ -1848,8 +1852,9 @@ ul {
   .card1 {
     height: 52rem;
     padding: 1rem;
-    width: 100%;
+    width: 60%;
     margin-bottom: 2rem;
+    margin-left: 10rem;
   }
   .card1__heading {
     font-size: 1.8rem;
@@ -1884,26 +1889,31 @@ ul {
     font-size: .4rem;
   }
   .story__shape {
-    width: 3rem;
-    height: 6rem;
+    width: 5rem;
+    height: 8rem;
     float: left;
     margin-left: 3rem;
 
 
   }
+  .btn-text1{
+    margin-right: 10rem;
+  }
   .u-margin-bottom-small{
-    font-size: 1rem;
+    font-size: 2.7rem;
   }
   .small-dev{
-    font-size: 1.5rem;
+    font-size: 2rem;
+    letter-spacing: .1rem;
   }
+
   
 .section-book {
-  padding: 2rem 1rem;
+  padding: 5rem 7rem;
 }
 .book {
   background-size: 100%;
-  height: 40vh;
+  height: 60vh;
 }
 .book__form {
   width: 50%;
@@ -1914,15 +1924,15 @@ ul {
   padding: 0 0 1rem 0;
 }
 .form__input {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   color: black;
-  padding: .1rem .1rem;
+  padding: 1rem .9rem;
   border-radius: 2px;
-  height: 4vh;
+  height: 7vh;
 }
 .heading-form{
   margin-top: 0rem;
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 }
