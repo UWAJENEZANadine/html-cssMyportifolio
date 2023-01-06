@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Todo List</title>
+    <title>Todo List App</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -17,7 +17,7 @@
       <div class="container">
         <div class="row justify-content-md-center">
           <div class="col-sm-12 col-md-8">
-            <h1>Welcome to To do App</h1>
+            <h1 class="text-center headerr">To do App</h1>
             <div class="todo-inner">
               <div class="form-row">
                 <div class="col-8 mr-sm-2">
@@ -31,20 +31,24 @@
                 </div>
                 <button
                   type="button"
-                  class="btn btn-success mr-sm-2"
+                  class="btn btn-warning mr-sm-2 mt-3"
                   id="addtaskbtn"
                 >
                   Add
                 </button>
                 <button
                   type="button"
-                  class="btn btn-success mr-sm-2"
+                  class="btn btn-success mr-sm-2 mt-3"
                   id="savetaskbtn"
                   style="display: none"
                 >
                   Save
                 </button>
-                <button type="button" id="deleteallbtn" class="btn btn-danger">
+                <button
+                  type="button"
+                  id="deleteallbtn"
+                  class="btn btn-danger mt-3"
+                >
                   Delete
                 </button>
               </div>
